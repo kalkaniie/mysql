@@ -1,0 +1,804 @@
+131022 16:25:58 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+131022 16:25:58 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+131022 16:25:58 [Note] Plugin 'FEDERATED' is disabled.
+131022 16:25:58 InnoDB: The InnoDB memory heap is disabled
+131022 16:25:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+131022 16:25:58 InnoDB: Compressed tables use zlib 1.2.3
+131022 16:25:58 InnoDB: Using Linux native AIO
+131022 16:25:58 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+131022 16:25:58 InnoDB: Initializing buffer pool, size = 1.0G
+131022 16:25:58 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file /usr/local/mysql/data/ibdata1 did not exist:
+InnoDB: a new database to be created!
+131022 16:25:58  InnoDB: Setting file /usr/local/mysql/data/ibdata1 size to 1000 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Progress in MB: 100 200 300 400 500 600 700 800 900 1000
+131022 16:26:02  InnoDB: Data file /usr/local/mysql/data/ibdata2 did not exist: new to be created
+131022 16:26:02  InnoDB: Setting file /usr/local/mysql/data/ibdata2 size to 1000 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Progress in MB: 100 200 300 400 500 600 700 800 900 1000
+131022 16:26:09  InnoDB: Data file /usr/local/mysql/data/ibdata3 did not exist: new to be created
+131022 16:26:09  InnoDB: Setting file /usr/local/mysql/data/ibdata3 size to 1000 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Progress in MB: 100 200 300 400 500 600 700 800 900 1000
+131022 16:26:16  InnoDB: Data file /usr/local/mysql/data/ibdata4 did not exist: new to be created
+131022 16:26:16  InnoDB: Setting file /usr/local/mysql/data/ibdata4 size to 1000 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Progress in MB: 100 200 300 400 500 600 700 800 900 1000
+131022 16:26:23  InnoDB: Data file /usr/local/mysql/data/ibdata5 did not exist: new to be created
+131022 16:26:23  InnoDB: Setting file /usr/local/mysql/data/ibdata5 size to 1000 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Progress in MB: 100 200 300 400 500 600 700 800 900 1000
+131022 16:26:29  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+131022 16:26:29  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+131022 16:26:29  InnoDB: Waiting for the background threads to start
+131022 16:26:30 InnoDB: 5.5.30 started; log sequence number 0
+131022 16:26:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+131022 16:26:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+131022 16:26:31 [Note] Server socket created on IP: '0.0.0.0'.
+131022 16:26:31 [Note] Event Scheduler: Loaded 0 events
+131022 16:26:31 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+131023 18:23:39 [Warning] IP address '150.19.10.95' could not be resolved: Temporary failure in name resolution
+131031 10:48:23 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131031 10:48:40 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131031 10:48:50 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:28:04 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:28:14 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:29:15 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:31:06 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:31:19 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:31:56 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:32:07 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:32:44 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:33:52 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:34:03 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:34:39 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:34:58 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 19:38:33 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131105 20:24:45 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+131105 20:24:45 [Note] Event Scheduler: Purging the queue. 0 events
+131105 20:24:47 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 6806  user: 'kebi'
+
+131105 20:24:47 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 6678  user: 'kebi'
+
+131105 20:24:47  InnoDB: Starting shutdown...
+131105 20:24:49  InnoDB: Shutdown completed; log sequence number 2519183
+131105 20:24:49 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+131105 20:24:49 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+131105 20:25:02 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+131105 20:25:02 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+131105 20:25:02 [Note] Plugin 'FEDERATED' is disabled.
+131105 20:25:02 InnoDB: The InnoDB memory heap is disabled
+131105 20:25:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+131105 20:25:02 InnoDB: Compressed tables use zlib 1.2.3
+131105 20:25:02 InnoDB: Using Linux native AIO
+131105 20:25:02 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+131105 20:25:02 InnoDB: Initializing buffer pool, size = 1.0G
+131105 20:25:02 InnoDB: Completed initialization of buffer pool
+131105 20:25:02 InnoDB: highest supported file format is Barracuda.
+131105 20:25:02  InnoDB: Waiting for the background threads to start
+131105 20:25:03 InnoDB: 5.5.30 started; log sequence number 2519183
+131105 20:25:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+131105 20:25:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+131105 20:25:03 [Note] Server socket created on IP: '0.0.0.0'.
+131105 20:25:03 [Note] Event Scheduler: Loaded 0 events
+131105 20:25:03 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+131125 14:57:06 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131125 14:57:16 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131125 15:02:09 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131125 15:26:21 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131125 20:33:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131125 21:08:14 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 15:22:33 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 15:22:43 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 15:22:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 15:25:04 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 15:25:28 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:13:26 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:13:37 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:13:47 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:15:31 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:15:47 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:22:00 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 21:38:33 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:09:56 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:10:45 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:11:15 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:27:12 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:27:30 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131126 22:27:57 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131205 13:12:28 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131205 13:12:38 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131205 13:12:49 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131205 13:12:59 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131205 13:13:40 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131206  9:50:11 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206  9:50:21 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206  9:50:31 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206  9:50:42 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206  9:50:42 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206 17:50:21 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206 17:50:32 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206 17:50:42 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206 17:50:52 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131206 17:53:31 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 10:06:57 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 10:07:07 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 10:07:17 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 10:07:28 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 10:07:28 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131217 20:10:10 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131217 20:10:20 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131217 20:10:31 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131217 20:10:41 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131217 20:11:08 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131220 11:15:37 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131220 11:15:47 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131220 11:15:58 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131220 11:16:08 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131220 11:16:31 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+131223 20:53:53 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131223 20:54:03 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131223 20:54:13 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131223 20:54:23 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+131224 14:14:54 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+131224 14:14:54 [Note] Event Scheduler: Purging the queue. 0 events
+131224 14:14:54  InnoDB: Starting shutdown...
+131224 14:14:55  InnoDB: Shutdown completed; log sequence number 27271123
+131224 14:14:55 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+131224 14:14:55 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+131224 19:47:16 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+131224 19:47:16 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+131224 19:47:16 [Note] Plugin 'FEDERATED' is disabled.
+131224 19:47:16 InnoDB: The InnoDB memory heap is disabled
+131224 19:47:16 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+131224 19:47:16 InnoDB: Compressed tables use zlib 1.2.3
+131224 19:47:16 InnoDB: Using Linux native AIO
+131224 19:47:16 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+131224 19:47:16 InnoDB: Initializing buffer pool, size = 1.0G
+131224 19:47:17 InnoDB: Completed initialization of buffer pool
+131224 19:47:17 InnoDB: highest supported file format is Barracuda.
+131224 19:47:17  InnoDB: Waiting for the background threads to start
+131224 19:47:18 InnoDB: 5.5.30 started; log sequence number 27271123
+131224 19:47:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+131224 19:47:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+131224 19:47:18 [Note] Server socket created on IP: '0.0.0.0'.
+131224 19:47:18 [Note] Event Scheduler: Loaded 0 events
+131224 19:47:18 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+140107 13:28:31 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140107 13:28:42 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140107 13:28:53 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140107 13:29:03 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140107 13:29:13 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140107 13:29:35 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140108 12:46:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140108 18:03:17 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+140110  1:36:47 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+140110  1:36:47 [Note] Event Scheduler: Purging the queue. 0 events
+140110  1:36:47  InnoDB: Starting shutdown...
+140110  1:36:49  InnoDB: Shutdown completed; log sequence number 30303727
+140110  1:36:49 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+140110 01:36:49 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+140110 11:39:25 mysqld_safe A mysqld process already exists
+140110 11:39:54 mysqld_safe A mysqld process already exists
+140110 11:40:57 mysqld_safe A mysqld process already exists
+150908 16:42:18 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+150908 16:42:18 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+150908 16:42:18 [Warning] One can only use the --user switch if running as root
+
+150908 16:42:18 [Note] Plugin 'FEDERATED' is disabled.
+150908 16:42:18 InnoDB: The InnoDB memory heap is disabled
+150908 16:42:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150908 16:42:18 InnoDB: Compressed tables use zlib 1.2.3
+150908 16:42:18 InnoDB: Using Linux native AIO
+150908 16:42:18 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+150908 16:42:18 InnoDB: Initializing buffer pool, size = 1.0G
+150908 16:42:18 InnoDB: Completed initialization of buffer pool
+150908 16:42:18 InnoDB: highest supported file format is Barracuda.
+150908 16:42:18  InnoDB: Waiting for the background threads to start
+150908 16:42:19 InnoDB: 5.5.30 started; log sequence number 31915209
+150908 16:42:20 [Note] Recovering after a crash using mysql-bin
+150908 16:42:20 [Note] Starting crash recovery...
+150908 16:42:20 [Note] Crash recovery finished.
+150908 16:42:20 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150908 16:42:20 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150908 16:42:20 [Note] Server socket created on IP: '0.0.0.0'.
+150908 16:42:20 [ERROR] Can't start server : Bind on unix socket: Address already in use
+150908 16:42:20 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+150908 16:42:20 [ERROR] Aborting
+
+150908 16:42:20  InnoDB: Starting shutdown...
+150908 16:42:21  InnoDB: Shutdown completed; log sequence number 31915209
+150908 16:42:21 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+150908 16:42:21 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+150908 16:44:42 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+150908 16:44:42 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+150908 16:44:42 [Warning] One can only use the --user switch if running as root
+
+150908 16:44:42 [Note] Plugin 'FEDERATED' is disabled.
+150908 16:44:42 InnoDB: The InnoDB memory heap is disabled
+150908 16:44:42 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150908 16:44:42 InnoDB: Compressed tables use zlib 1.2.3
+150908 16:44:42 InnoDB: Using Linux native AIO
+150908 16:44:42 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+150908 16:44:42 InnoDB: Initializing buffer pool, size = 1.0G
+150908 16:44:42 InnoDB: Completed initialization of buffer pool
+150908 16:44:42 InnoDB: highest supported file format is Barracuda.
+150908 16:44:42  InnoDB: Waiting for the background threads to start
+150908 16:44:43 InnoDB: 5.5.30 started; log sequence number 31915209
+150908 16:44:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150908 16:44:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150908 16:44:43 [Note] Server socket created on IP: '0.0.0.0'.
+150908 16:44:43 [ERROR] Can't start server : Bind on unix socket: Address already in use
+150908 16:44:43 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+150908 16:44:43 [ERROR] Aborting
+
+150908 16:44:43  InnoDB: Starting shutdown...
+150908 16:44:44  InnoDB: Shutdown completed; log sequence number 31915209
+150908 16:44:44 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+150908 16:44:44 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+150908 16:49:54 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+150908 16:49:54 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+150908 16:49:54 [Warning] One can only use the --user switch if running as root
+
+150908 16:49:54 [Note] Plugin 'FEDERATED' is disabled.
+150908 16:49:54 InnoDB: The InnoDB memory heap is disabled
+150908 16:49:54 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150908 16:49:54 InnoDB: Compressed tables use zlib 1.2.3
+150908 16:49:54 InnoDB: Using Linux native AIO
+150908 16:49:54 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+150908 16:49:54 InnoDB: Initializing buffer pool, size = 1.0G
+150908 16:49:54 InnoDB: Completed initialization of buffer pool
+150908 16:49:54 InnoDB: highest supported file format is Barracuda.
+150908 16:49:54  InnoDB: Waiting for the background threads to start
+150908 16:49:55 InnoDB: 5.5.30 started; log sequence number 31915209
+150908 16:49:55 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150908 16:49:55 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150908 16:49:55 [Note] Server socket created on IP: '0.0.0.0'.
+150908 16:49:55 [ERROR] Can't start server : Bind on unix socket: Address already in use
+150908 16:49:55 [ERROR] Do you already have another mysqld server running on socket: /tmp/mysql.sock ?
+150908 16:49:55 [ERROR] Aborting
+
+150908 16:49:55  InnoDB: Starting shutdown...
+150908 16:49:56  InnoDB: Shutdown completed; log sequence number 31915209
+150908 16:49:56 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+150908 16:49:56 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+150908 16:58:20 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+150908 16:58:20 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+150908 16:58:20 [Note] Plugin 'FEDERATED' is disabled.
+150908 16:58:20 InnoDB: The InnoDB memory heap is disabled
+150908 16:58:20 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150908 16:58:20 InnoDB: Compressed tables use zlib 1.2.3
+150908 16:58:20 InnoDB: Using Linux native AIO
+150908 16:58:21 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+150908 16:58:21 InnoDB: Initializing buffer pool, size = 1.0G
+150908 16:58:21 InnoDB: Completed initialization of buffer pool
+150908 16:58:21 InnoDB: highest supported file format is Barracuda.
+150908 16:58:21  InnoDB: Waiting for the background threads to start
+150908 16:58:22 InnoDB: 5.5.30 started; log sequence number 31915209
+150908 16:58:22 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150908 16:58:22 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150908 16:58:22 [Note] Server socket created on IP: '0.0.0.0'.
+150908 16:58:22 [Note] Event Scheduler: Loaded 0 events
+150908 16:58:22 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150908 17:57:09 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150908 17:57:22 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150908 17:57:41 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:19:41 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+150923 17:19:41 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+150923 17:19:41 [Note] Plugin 'FEDERATED' is disabled.
+150923 17:19:41 InnoDB: The InnoDB memory heap is disabled
+150923 17:19:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150923 17:19:41 InnoDB: Compressed tables use zlib 1.2.3
+150923 17:19:41 InnoDB: Using Linux native AIO
+150923 17:19:41 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+150923 17:19:41 InnoDB: Initializing buffer pool, size = 1.0G
+150923 17:19:41 InnoDB: Completed initialization of buffer pool
+150923 17:19:41 InnoDB: highest supported file format is Barracuda.
+150923 17:19:41  InnoDB: Waiting for the background threads to start
+150923 17:19:42 InnoDB: 5.5.30 started; log sequence number 32186106
+150923 17:19:42 [Note] Recovering after a crash using mysql-bin
+150923 17:19:42 [Note] Starting crash recovery...
+150923 17:19:42 [Note] Crash recovery finished.
+150923 17:19:42 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+150923 17:19:42 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+150923 17:19:42 [Note] Server socket created on IP: '0.0.0.0'.
+150923 17:19:42 [Note] Event Scheduler: Loaded 0 events
+150923 17:19:42 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150923 17:32:10 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:38:08 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:38:55 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:39:05 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:39:25 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:40:55 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:41:10 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:41:21 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:41:40 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+150923 17:47:30 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151126 17:36:53 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  8:56:19 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  8:56:30 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  8:58:15 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  8:59:27 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:00:19 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:00:29 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:00:32 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:01:33 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:01:49 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:02:42 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:03:21 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:04:42 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+151127  9:05:17 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:13:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:19:21 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:19:32 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127  9:20:01 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151127 14:53:41 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151130 14:48:19 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+151130 14:48:19 [Note] Event Scheduler: Purging the queue. 0 events
+151130 14:48:19  InnoDB: Starting shutdown...
+151130 14:48:21  InnoDB: Shutdown completed; log sequence number 32387823
+151130 14:48:21 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+151130 14:48:21 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+151130 14:48:49 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+151130 14:48:49 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+151130 14:48:49 [Note] Plugin 'FEDERATED' is disabled.
+151130 14:48:49 InnoDB: The InnoDB memory heap is disabled
+151130 14:48:49 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+151130 14:48:49 InnoDB: Compressed tables use zlib 1.2.3
+151130 14:48:49 InnoDB: Using Linux native AIO
+151130 14:48:49 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+151130 14:48:49 InnoDB: Initializing buffer pool, size = 1.0G
+151130 14:48:49 InnoDB: Completed initialization of buffer pool
+151130 14:48:49 InnoDB: highest supported file format is Barracuda.
+151130 14:48:49  InnoDB: Waiting for the background threads to start
+151130 14:48:50 InnoDB: 5.5.30 started; log sequence number 32387823
+151130 14:48:50 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+151130 14:48:50 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+151130 14:48:50 [Note] Server socket created on IP: '0.0.0.0'.
+151130 14:48:50 [Note] Event Scheduler: Loaded 0 events
+151130 14:48:50 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+151201 10:02:08 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151201 10:02:19 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151201 10:02:47 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 15:53:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 15:54:04 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 15:54:32 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 15:54:52 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:05:25 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:05:46 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:10:17 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:10:28 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:13:01 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:13:36 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:15:14 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:18:53 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+151202 16:21:02 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160113 17:28:11 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160113 17:28:12 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160113 17:28:12 [Note] Plugin 'FEDERATED' is disabled.
+160113 17:28:12 InnoDB: The InnoDB memory heap is disabled
+160113 17:28:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160113 17:28:12 InnoDB: Compressed tables use zlib 1.2.3
+160113 17:28:12 InnoDB: Using Linux native AIO
+160113 17:28:12 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160113 17:28:12 InnoDB: Initializing buffer pool, size = 1.0G
+160113 17:28:12 InnoDB: Completed initialization of buffer pool
+160113 17:28:12 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+160113 17:28:12  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 280719, file name ./mysql-bin.000015
+160113 17:28:17  InnoDB: Waiting for the background threads to start
+160113 17:28:18 InnoDB: 5.5.30 started; log sequence number 32403657
+160113 17:28:19 [Note] Recovering after a crash using mysql-bin
+160113 17:28:19 [Note] Starting crash recovery...
+160113 17:28:19 [Note] Crash recovery finished.
+160113 17:28:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160113 17:28:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160113 17:28:19 [Note] Server socket created on IP: '0.0.0.0'.
+160113 17:28:20 [Note] Event Scheduler: Loaded 0 events
+160113 17:28:20 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160113 17:33:29 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160113 17:33:29 [Note] Event Scheduler: Purging the queue. 0 events
+160113 17:33:29  InnoDB: Starting shutdown...
+160113 17:33:30  InnoDB: Shutdown completed; log sequence number 32403657
+160113 17:33:30 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160113 17:33:30 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160113 17:33:33 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160113 17:33:33 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160113 17:33:33 [Note] Plugin 'FEDERATED' is disabled.
+160113 17:33:33 InnoDB: The InnoDB memory heap is disabled
+160113 17:33:33 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160113 17:33:33 InnoDB: Compressed tables use zlib 1.2.3
+160113 17:33:33 InnoDB: Using Linux native AIO
+160113 17:33:33 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160113 17:33:33 InnoDB: Initializing buffer pool, size = 1.0G
+160113 17:33:33 InnoDB: Completed initialization of buffer pool
+160113 17:33:33 InnoDB: highest supported file format is Barracuda.
+160113 17:33:33  InnoDB: Waiting for the background threads to start
+160113 17:33:34 InnoDB: 5.5.30 started; log sequence number 32403657
+160113 17:33:34 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160113 17:33:34 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160113 17:33:34 [Note] Server socket created on IP: '0.0.0.0'.
+160113 17:33:34 [Note] Event Scheduler: Loaded 0 events
+160113 17:33:34 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160113 19:45:29 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160113 19:45:40 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160113 23:10:19 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160113 23:10:31 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:54:01 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:54:34 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:54:45 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:55:42 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:55:53 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:56:52 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160127 13:57:03 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160205 14:01:05 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160324 13:31:46 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160324 13:32:07 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160324 13:34:17 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160324 13:39:35 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160324 13:39:45 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160415 10:50:21 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160415 10:51:00 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160419 11:04:33 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160419 11:04:51 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428  9:12:35 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428  9:12:54 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428  9:52:15 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428  9:52:34 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428 10:54:47 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160428 10:55:02 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160601 19:48:23 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160601 19:48:23 [Note] Event Scheduler: Purging the queue. 0 events
+160601 19:48:25 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 16538  user: 'kebi'
+
+160601 19:48:25  InnoDB: Starting shutdown...
+160601 19:48:27  InnoDB: Shutdown completed; log sequence number 32753574
+160601 19:48:27 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160601 19:48:27 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160601 19:48:33 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160601 19:48:33 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160601 19:48:33 [Warning] The syntax '--log' is deprecated and will be removed in a future release. Please use '--general-log'/'--general-log-file' instead.
+160601 19:48:33 [Note] Plugin 'FEDERATED' is disabled.
+160601 19:48:33 InnoDB: The InnoDB memory heap is disabled
+160601 19:48:33 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160601 19:48:33 InnoDB: Compressed tables use zlib 1.2.3
+160601 19:48:33 InnoDB: Using Linux native AIO
+160601 19:48:33 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160601 19:48:33 InnoDB: Initializing buffer pool, size = 1.0G
+160601 19:48:33 InnoDB: Completed initialization of buffer pool
+160601 19:48:33 InnoDB: highest supported file format is Barracuda.
+160601 19:48:34  InnoDB: Waiting for the background threads to start
+160601 19:48:35 InnoDB: 5.5.30 started; log sequence number 32753574
+160601 19:48:35 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160601 19:48:35 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160601 19:48:35 [Note] Server socket created on IP: '0.0.0.0'.
+160601 19:48:35 [Note] Event Scheduler: Loaded 0 events
+160601 19:48:35 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 16:58:40 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160922 16:58:41 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160922 16:58:41 [Note] Plugin 'FEDERATED' is disabled.
+160922 16:58:41 InnoDB: The InnoDB memory heap is disabled
+160922 16:58:41 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160922 16:58:41 InnoDB: Compressed tables use zlib 1.2.3
+160922 16:58:41 InnoDB: Using Linux native AIO
+160922 16:58:41 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160922 16:58:41 InnoDB: Initializing buffer pool, size = 1.0G
+160922 16:58:41 InnoDB: Completed initialization of buffer pool
+160922 16:58:42 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+160922 16:58:42  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 4557395, file name ./mysql-bin.000017
+160922 16:58:47  InnoDB: Waiting for the background threads to start
+160922 16:58:48 InnoDB: 5.5.30 started; log sequence number 32759668
+160922 16:58:48 [Note] Recovering after a crash using mysql-bin
+160922 16:58:49 [Note] Starting crash recovery...
+160922 16:58:49 [Note] Crash recovery finished.
+160922 16:58:50 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160922 16:58:50 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160922 16:58:50 [Note] Server socket created on IP: '0.0.0.0'.
+160922 16:58:50 [Note] Event Scheduler: Loaded 0 events
+160922 16:58:50 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 17:10:47 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160922 17:10:47 [Note] Event Scheduler: Purging the queue. 0 events
+160922 17:10:47  InnoDB: Starting shutdown...
+160922 17:10:48  InnoDB: Shutdown completed; log sequence number 32759668
+160922 17:10:48 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160922 17:10:48 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160922 17:11:04 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160922 17:11:04 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160922 17:11:04 [Note] Plugin 'FEDERATED' is disabled.
+160922 17:11:04 InnoDB: The InnoDB memory heap is disabled
+160922 17:11:04 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160922 17:11:04 InnoDB: Compressed tables use zlib 1.2.3
+160922 17:11:04 InnoDB: Using Linux native AIO
+160922 17:11:04 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160922 17:11:04 InnoDB: Initializing buffer pool, size = 1.0G
+160922 17:11:04 InnoDB: Completed initialization of buffer pool
+160922 17:11:04 InnoDB: highest supported file format is Barracuda.
+160922 17:11:04  InnoDB: Waiting for the background threads to start
+160922 17:11:05 InnoDB: 5.5.30 started; log sequence number 32759668
+160922 17:11:05 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160922 17:11:05 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160922 17:11:05 [Note] Server socket created on IP: '0.0.0.0'.
+160922 17:11:05 [Note] Event Scheduler: Loaded 0 events
+160922 17:11:05 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 17:18:52 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:19:26 mysqld_safe A mysqld process already exists
+160922 17:19:42 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:25:07 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:30:19 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160922 17:30:19 [Note] Event Scheduler: Purging the queue. 0 events
+160922 17:30:19  InnoDB: Starting shutdown...
+160922 17:30:20  InnoDB: Shutdown completed; log sequence number 32759668
+160922 17:30:20 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160922 17:30:20 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160922 17:30:47 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160922 17:30:47 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160922 17:30:47 [Note] Plugin 'FEDERATED' is disabled.
+160922 17:30:47 InnoDB: The InnoDB memory heap is disabled
+160922 17:30:47 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160922 17:30:47 InnoDB: Compressed tables use zlib 1.2.3
+160922 17:30:47 InnoDB: Using Linux native AIO
+160922 17:30:47 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160922 17:30:47 InnoDB: Initializing buffer pool, size = 1.0G
+160922 17:30:47 InnoDB: Completed initialization of buffer pool
+160922 17:30:47 InnoDB: highest supported file format is Barracuda.
+160922 17:30:48  InnoDB: Waiting for the background threads to start
+160922 17:30:49 InnoDB: 5.5.30 started; log sequence number 32759668
+160922 17:30:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160922 17:30:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160922 17:30:49 [Note] Server socket created on IP: '0.0.0.0'.
+160922 17:30:49 [Note] Event Scheduler: Loaded 0 events
+160922 17:30:49 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 17:32:24 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:41:00 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160922 17:41:00 [Note] Event Scheduler: Purging the queue. 0 events
+160922 17:41:00  InnoDB: Starting shutdown...
+160922 17:41:01  InnoDB: Shutdown completed; log sequence number 32759668
+160922 17:41:01 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160922 17:41:01 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160922 17:41:18 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160922 17:41:18 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160922 17:41:18 [Note] Plugin 'FEDERATED' is disabled.
+160922 17:41:18 InnoDB: The InnoDB memory heap is disabled
+160922 17:41:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160922 17:41:18 InnoDB: Compressed tables use zlib 1.2.3
+160922 17:41:18 InnoDB: Using Linux native AIO
+160922 17:41:18 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160922 17:41:18 InnoDB: Initializing buffer pool, size = 1.0G
+160922 17:41:18 InnoDB: Completed initialization of buffer pool
+160922 17:41:18 InnoDB: highest supported file format is Barracuda.
+160922 17:41:18  InnoDB: Waiting for the background threads to start
+160922 17:41:19 InnoDB: 5.5.30 started; log sequence number 32759668
+160922 17:41:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160922 17:41:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160922 17:41:19 [Note] Server socket created on IP: '0.0.0.0'.
+160922 17:41:19 [Note] Event Scheduler: Loaded 0 events
+160922 17:41:19 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 17:42:52 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:45:49 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+160922 17:45:49 [Note] Event Scheduler: Purging the queue. 0 events
+160922 17:45:49  InnoDB: Starting shutdown...
+160922 17:45:49  InnoDB: Shutdown completed; log sequence number 32759678
+160922 17:45:49 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+160922 17:45:49 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+160922 17:46:03 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+160922 17:46:03 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+160922 17:46:03 [Note] Plugin 'FEDERATED' is disabled.
+160922 17:46:03 InnoDB: The InnoDB memory heap is disabled
+160922 17:46:03 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+160922 17:46:03 InnoDB: Compressed tables use zlib 1.2.3
+160922 17:46:03 InnoDB: Using Linux native AIO
+160922 17:46:03 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+160922 17:46:03 InnoDB: Initializing buffer pool, size = 1.0G
+160922 17:46:03 InnoDB: Completed initialization of buffer pool
+160922 17:46:03 InnoDB: highest supported file format is Barracuda.
+160922 17:46:03  InnoDB: Waiting for the background threads to start
+160922 17:46:04 InnoDB: 5.5.30 started; log sequence number 32759678
+160922 17:46:05 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160922 17:46:05 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160922 17:46:05 [Note] Server socket created on IP: '0.0.0.0'.
+160922 17:46:05 [Note] Event Scheduler: Loaded 0 events
+160922 17:46:05 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+160922 17:49:48 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:50:42 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:50:59 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:56:55 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 17:58:16 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 18:05:56 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160922 18:07:57 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160923  8:15:10 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160923  8:19:10 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160923  8:21:09 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160923  8:41:26 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160923  8:51:54 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160923 10:34:40 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160926 16:44:52 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160926 16:48:58 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160926 16:59:30 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160926 17:02:28 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160926 17:54:59 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+160926 17:59:49 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160927  8:43:15 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160927  8:44:14 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160927  8:45:32 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160927  8:46:31 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+160927  8:46:47 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+161018 14:24:48 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+161018 14:25:57 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+161026 11:28:08 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+161026 11:28:24 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+161226 12:44:55 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+161226 12:45:27 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170117 15:27:26 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170117 15:28:01 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170118  9:22:43 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170118  9:22:56 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170118 15:46:54 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170118 15:47:17 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170120  8:50:01 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170120  8:50:20 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170123 16:24:29 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170123 16:24:44 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170123 16:32:31 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170123 16:32:41 [Warning] IP address '150.19.10.113' could not be resolved: Temporary failure in name resolution
+170124 13:20:15 mysqld_safe A mysqld process already exists
+170124 15:06:23 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+170124 15:06:23 [Note] Event Scheduler: Purging the queue. 0 events
+170124 15:06:25 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 59552  user: 'kebi'
+
+170124 15:06:25 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 59538  user: 'kebi'
+
+170124 15:06:25  InnoDB: Starting shutdown...
+170124 15:06:27  InnoDB: Shutdown completed; log sequence number 33197397
+170124 15:06:27 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+170124 15:06:27 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+170124 15:06:49 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+170124 15:06:49 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+170124 15:06:49 [Note] Plugin 'FEDERATED' is disabled.
+170124 15:06:49 InnoDB: The InnoDB memory heap is disabled
+170124 15:06:49 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170124 15:06:49 InnoDB: Compressed tables use zlib 1.2.3
+170124 15:06:49 InnoDB: Using Linux native AIO
+170124 15:06:49 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+170124 15:06:49 InnoDB: Initializing buffer pool, size = 1.0G
+170124 15:06:49 InnoDB: Completed initialization of buffer pool
+170124 15:06:49 InnoDB: highest supported file format is Barracuda.
+170124 15:06:50  InnoDB: Waiting for the background threads to start
+170124 15:06:51 InnoDB: 5.5.30 started; log sequence number 33197397
+170124 15:06:51 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170124 15:06:51 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170124 15:06:51 [Note] Server socket created on IP: '0.0.0.0'.
+170124 15:06:51 [Note] Event Scheduler: Loaded 0 events
+170124 15:06:51 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+170124 15:18:45 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170124 15:19:03 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170125 13:35:35 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+170125 13:35:35 [Note] Event Scheduler: Purging the queue. 0 events
+170125 13:35:37 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 6  user: 'kebi'
+
+170125 13:35:37 [Warning] /usr/local/mysql/bin/mysqld: Forcing close of thread 5  user: 'kebi'
+
+170125 13:35:37  InnoDB: Starting shutdown...
+170125 13:35:39  InnoDB: Shutdown completed; log sequence number 33293517
+170125 13:35:39 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+170125 13:35:39 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+170125 13:36:02 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+170125 13:36:02 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+170125 13:36:02 [Note] Plugin 'FEDERATED' is disabled.
+170125 13:36:02 InnoDB: The InnoDB memory heap is disabled
+170125 13:36:02 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170125 13:36:02 InnoDB: Compressed tables use zlib 1.2.3
+170125 13:36:02 InnoDB: Using Linux native AIO
+170125 13:36:02 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+170125 13:36:02 InnoDB: Initializing buffer pool, size = 1.0G
+170125 13:36:02 InnoDB: Completed initialization of buffer pool
+170125 13:36:02 InnoDB: highest supported file format is Barracuda.
+170125 13:36:02  InnoDB: Waiting for the background threads to start
+170125 13:36:03 InnoDB: 5.5.30 started; log sequence number 33293517
+170125 13:36:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170125 13:36:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170125 13:36:03 [Note] Server socket created on IP: '0.0.0.0'.
+170125 13:36:03 [Note] Event Scheduler: Loaded 0 events
+170125 13:36:03 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+170125 13:43:28 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170125 14:10:32 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170125 14:10:45 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170126  8:51:37 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170126  8:52:14 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170201 10:39:43 mysqld_safe A mysqld process already exists
+170201 10:40:00 [Note] /usr/local/mysql/bin/mysqld: Normal shutdown
+
+170201 10:40:00 [Note] Event Scheduler: Purging the queue. 0 events
+170201 10:40:00  InnoDB: Starting shutdown...
+170201 10:40:01  InnoDB: Shutdown completed; log sequence number 33496004
+170201 10:40:01 [Note] /usr/local/mysql/bin/mysqld: Shutdown complete
+
+170201 10:40:01 mysqld_safe mysqld from pid file /usr/local/mysql/data/SKT-CSMDALL1.pid ended
+170201 10:40:18 mysqld_safe Starting mysqld daemon with databases from /usr/local/mysql/data
+170201 10:40:18 [Warning] The syntax '--log-slow-queries' is deprecated and will be removed in a future release. Please use '--slow-query-log'/'--slow-query-log-file' instead.
+170201 10:40:18 [Note] Plugin 'FEDERATED' is disabled.
+170201 10:40:18 InnoDB: The InnoDB memory heap is disabled
+170201 10:40:18 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+170201 10:40:18 InnoDB: Compressed tables use zlib 1.2.3
+170201 10:40:18 InnoDB: Using Linux native AIO
+170201 10:40:18 InnoDB: Warning: innodb_file_io_threads is deprecated. Please use innodb_read_io_threads and innodb_write_io_threads instead
+170201 10:40:18 InnoDB: Initializing buffer pool, size = 1.0G
+170201 10:40:18 InnoDB: Completed initialization of buffer pool
+170201 10:40:18 InnoDB: highest supported file format is Barracuda.
+170201 10:40:18  InnoDB: Waiting for the background threads to start
+170201 10:40:19 InnoDB: 5.5.30 started; log sequence number 33496004
+170201 10:40:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+170201 10:40:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+170201 10:40:19 [Note] Server socket created on IP: '0.0.0.0'.
+170201 10:40:19 [Note] Event Scheduler: Loaded 0 events
+170201 10:40:19 [Note] /usr/local/mysql/bin/mysqld: ready for connections.
+Version: '5.5.30-log'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+170201 13:43:46 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170201 13:44:12 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170221  9:40:18 [Warning] IP address '150.19.10.96' could not be resolved: Temporary failure in name resolution
+170221  9:40:43 [Warning] IP address '150.19.10.96' has been resolved to the host name '96.10.19.150.www-hosting.it-hiroshima.ac.jp', which resembles IPv4-address itself.
